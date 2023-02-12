@@ -22,9 +22,9 @@ app.get('*', (req, res) => {
   })
 
 // Tell express to use your routers here
-const userRouter = require('./routes/users');
+// const userRouter = require('./routes/users');
 
-app.use('/users', userRouter);
-app.use('/', userRouter);
+// app.use('/users', userRouter);
+// app.use('/', userRouter);
 
 module.exports = app
