@@ -6,17 +6,39 @@ import Logo from '../../assets/img/myea-logo.svg';
 function Nav() {
   return (
     <>
-      <div className='flex flex-row bg-slate-500 sm:hidden'>
-        {/* <div className="w-50 h-50">
-          <img src={Logo} alt="Logo" className="w-50 h-50" />
-        </div> */}
-        <MenuIcon />
-      </div>
-      <div className='hidden flex-row bg-slate-500 sm:flex'>
-        <nav>
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/myecohome'>Myecohome</Link>
+      <div className='flex flex-row betwe w-full px-2 mx-auto bg-green-500 sm:flex hover:text-slate-50 items-center'>
+        <img src={Logo} alt='logo' className='w-12 h-12 mr-3' />
+        <div className='flex flex-row bg-green-500 sm:hidden justify-end'>
+          <MenuIcon />
+        </div>
+
+        <nav className='hidden flex-row w-full justify-end items-center sm:flex'>
+          <ul className='flex flex-row items-center'>
+            <li>
+              <Link
+                to='/'
+                className='block py-2 pl-3 pr-4 text-white hover:text-slate-300'
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='/about'
+                className='block py-2 pl-3 pr-4 text-white hover:text-slate-300'
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='/myecohome'
+                className='block py-2 pl-3 pr-4 text-white hover:text-slate-300'
+              >
+                Myecohome
+              </Link>
+            </li>
+          </ul>
         </nav>
       </div>
     </>
