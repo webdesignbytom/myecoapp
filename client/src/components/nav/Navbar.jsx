@@ -8,7 +8,7 @@ const links = [{ url: '/', title: 'Home'}, { url: '/about', title: 'About'}, { u
 function Navbar() {
   return (
     <>
-      <div className='flex flex-row justify-between w-full px-2 mx-auto bg-green-500 sm:flex hover:text-slate-50 items-center'>
+      <div className='flex flex-row justify-between w-full px-2 mx-auto bg-eco-green sm:flex hover:text-slate-50 items-center'>
         {/* Left hand side of nav perminent */}
         <img src={Logo} alt='logo' className='w-12 h-12 mr-3' />
 
