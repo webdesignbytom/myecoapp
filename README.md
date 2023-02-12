@@ -4,13 +4,14 @@ A website designed to help the environment by turning internet traffic into cash
 Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
 
 # Components Designs and pages
+
 - Home
   - Hero
   - Welcome
   - Goals
     - 3 - 6
   - Supporters
-  - Funding 
+  - Funding
     - adverts
     - media
     - shop
@@ -19,18 +20,18 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
   - FAQ
   - Meet the team
   
-- myecohome - components 
-- lottery - to raise cash 
+- myecohome - components
+- lottery - to raise cash
 - games - to entertain and drive traffic up
   - highscores page/leaderboards
-  - 
 - Profile - scores from games or achevments from the site
 - Contact
 - Services
 - About
 
 ## Required
-- Register and login auth and token 
+
+- Register and login auth and token
 - Basic username, email and password req.body
 - Track users who log in to give them stats
 - User acheievements and badges/ medals - log in x times
