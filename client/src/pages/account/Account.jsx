@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/nav/Navbar';
 
 function Account() {
   return (
-    <div>Account</div>
-  )
+    <>
+      <Navbar />
+      <div>Account</div>
+    </>
+  );
 }
 
-export default Account
+export default Account;
