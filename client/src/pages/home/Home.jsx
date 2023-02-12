@@ -1,11 +1,11 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import Nav from '../components/nav/Nav';
+import Navbar from '../../components/nav/Navbar';
 
 function Home() {
   return (
     <div>
-      <Nav />
+      <Navbar />
     </div>
   )
 }

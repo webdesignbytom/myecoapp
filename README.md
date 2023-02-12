@@ -26,7 +26,8 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
   - highscores page/leaderboards
 - Profile - scores from games or achevments from the site
 - Contact
-- Services
+- Account - personal information
+- Services?
 - About
 
 ## Required
