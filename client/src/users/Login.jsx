@@ -29,8 +29,6 @@ function Login() {
         password,
       }),
     });
-
-    const userResData = await res.json();
     
     navigate('/', {
       replace: true,

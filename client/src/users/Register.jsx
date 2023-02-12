@@ -33,8 +33,6 @@ function Register() {
         password,
       }),
     });
-
-    const userResData = await res.json();
     
     navigate('/login', {
       replace: true,
