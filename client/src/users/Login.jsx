@@ -19,6 +19,7 @@ function Login() {
 
     const { email, password } = loginUserData;
 
+    // eslint-disable-next-line no-unused-vars
     const res = await fetch(`http://localhost:4000/login`, {
       method: 'POST',
       headers: {
@@ -48,7 +49,7 @@ function Login() {
     <>
       <Navbar />
       <div>
-        <h1>Login</h1>
+        <h1>Login x</h1>
         <Form inputs={LoginFormComponents} handleChange={handleChange} handleSubmit={handleSubmit} />
       </div>
     </>

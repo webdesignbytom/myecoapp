@@ -23,6 +23,7 @@ function Register() {
 
     const { email, password } = formData;
 
+    // eslint-disable-next-line no-unused-vars
     const res = await fetch(`http://localhost:4000/register`, {
       method: 'POST',
       headers: {
