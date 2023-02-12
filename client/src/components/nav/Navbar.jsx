@@ -1,9 +1,9 @@
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/myea-logo.svg';
 
-const links = ['Home', 'About', 'Myecohome', 'Games', ];
+const links = [{ url: '/', title: 'Home'}, { url: '/about', title: 'About'}, { url: '/myecohome', title: 'MyEcoHome'}, { url: '/games', title: 'Games'}, { url: '/account', title: 'Account'}];
 
 function Navbar() {
   return (
@@ -36,8 +36,8 @@ export default Navbar;
 function NavLink({ link }) {
   return (
     <>
-      <Link to='/' className='block px-4 py-2 text-white hover:text-slate-300'>
-        {link}
+      <Link to={link.url} className='block px-4 py-2 text-white hover:text-slate-300'>
+        {link.title}
       </Link>
     </>
   );
