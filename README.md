@@ -4,12 +4,29 @@ A website designed to help the environment by turning internet traffic into cash
 
 # Components Designs and pages
 - Home
+  - Hero
+  - Welcome
+  - Goals
+    - 3 - 6
+  - Supporters
+  - Funding 
+    - adverts
+    - media
+    - shop
+    - games
+  - Advert Break
+  - FAQ
+  - Meet the team
+  
 - myecohome - components 
-- lottery - to raise cash
+- lottery - to raise cash 
 - games - to entertain and drive traffic up
   - highscores page/leaderboards
   - 
 - Profile - scores from games or achevments from the site
+- Contact
+- Services
+- About
 
 ## Required
 - Register and login auth and token 
