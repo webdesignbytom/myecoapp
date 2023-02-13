@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/nav/Navbar';
 
 function MyEcoHome() {
   return (
-    <div>MyEcoHome</div>
-  )
+    <>
+      <Navbar />
+      <div>MyEcoHome</div>
+    </>
+  );
 }
 
-export default MyEcoHome
+export default MyEcoHome;

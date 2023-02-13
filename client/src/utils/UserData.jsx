@@ -1,9 +1,11 @@
+// Used for inital userContext
 export const userSampleData = {
   id: '',
   email: '',
   role: ''
 };
 
+// Used for profile 
 export const sampleProfileData = {
   username: '',
   email: '',

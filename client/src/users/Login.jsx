@@ -48,7 +48,7 @@ function Login() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className=''>
         <h1>Login x</h1>
         <Form inputs={LoginFormComponents} handleChange={handleChange} handleSubmit={handleSubmit} />
       </div>

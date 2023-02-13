@@ -13,9 +13,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} index />
         <Route path='/about' element={<About />} index />
-        <Route path='/account' element={<Account />} index />
-        <Route path='/games' element={<Games />} index />
         <Route path='/myecohome' element={<MyEcoHome />} index />
+        <Route path='/games' element={<Games />} index />
+
+        {/* Authorization required */}
+        <Route path='/account' element={<Account />} index />
+
+        {/* User Routes */}
         <Route path='/login' element={<Login />} index />
         <Route path='/register' element={<Register />} index />
       </Routes>

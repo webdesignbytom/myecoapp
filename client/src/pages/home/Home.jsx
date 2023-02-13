@@ -3,9 +3,10 @@ import Navbar from '../../components/nav/Navbar';
 
 function Home() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div className='bg-blue-500'>Home</div>
+    </>
   )
 }
 
