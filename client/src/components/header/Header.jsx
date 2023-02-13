@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <>
-      <div className='px-4 p-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-14'>
-        <div className='flex flex-col items-center justify-between w-full mb-10 lg:flex-row'>
-          <div className='mb-16 lg:mb-0 lg:max-w-lg lg:pr-5'>
+      <div className='h-screen bg-eco-green-pale px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14'>
+        <div className='flex flex-col items-center justify-between w-full my-10 lg:flex-row'>
+          <div className='mb-16 lg:mb-0 lg:max-w-lg lg:pr-5 lg:pl-5'>
             <div className='max-w-xl mb-6'>
               <div>
-                <p className='inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-teal-900 rounded-full'>
-                  Brand new
+                <p className='inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
+                  Brand new web project
                 </p>
               </div>
               <h2 className='font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6'>
-                Everything you
+                Everything you {' '}
                 <br className='hidden md:block' />
                 can imagine{' '}
                 <span className='inline-block text-deep-purple-accent-400'>
@@ -22,9 +22,7 @@ function Header() {
                 </span>
               </h2>
               <p className='text-gray-700 text-base md:text-lg'>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+                Help the environment from anywhere for free! At home or at any event. Use our apps to earn while you relax. We have done what we can to provide entertainment for you. Check it out below.
               </p>
             </div>
             <div className='flex items-center space-x-3'>
@@ -51,7 +49,7 @@ function Header() {
             </div>
           </div>
           {/* Phones */}
-          <div className='flex items-center justify-center lg:w-1/2'>
+          <div className='flex h-full items-center justify-center lg:w-1/2'>
             <div className='w-2/5'>
               <img
                 className='object-cover'

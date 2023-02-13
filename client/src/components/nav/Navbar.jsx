@@ -14,14 +14,14 @@ const links = [
 function Navbar() {
   return (
     <>
-      <div className='flex flex-row justify-between w-full px-8 mx-auto bg-eco-green sm:flex hover:text-slate-50 items-center'>
+      <div className='fixed flex-row justify-between w-full px-8 mx-auto bg-eco-green sm:flex hover:text-slate-50 items-center'>
         {/* Left hand side of nav perminent */}
         <Link to='/'>
           <img src={Logo} alt='logo' className='w-12 h-12 mr-3' />
         </Link>
 
         {/* small screen menu */}
-        <div className='flex flex-row bg-green-500 sm:hidden justify-end'>
+        <div className='flex flex-row sm:hidden justify-end'>
           <MenuIcon />
         </div>
         {/* Large screen menu */}
@@ -48,7 +48,7 @@ function NavLink({ link }) {
     <>
       <Link
         to={link.url}
-        className='block px-4 py-2 text-white hover:text-slate-200 font-medium text-lg'
+        className='block px-4 py-2 text-white hover:text-eco-green-dark font-medium text-lg'
       >
         {link.title}
       </Link>
