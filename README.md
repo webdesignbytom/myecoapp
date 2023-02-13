@@ -38,3 +38,7 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
 - User acheievements and badges/ medals - log in x times
 - Only a few protected routes - profiles
 - socket.io for interactive high scores
+
+## Design
+Colour pallet based on logo green
+<img src='./assets/img/colourpallet.png' alt='scheme'>
