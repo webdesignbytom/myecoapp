@@ -12,7 +12,7 @@ function Header() {
           <div className='mb-16 lg:mb-0 lg:max-w-lg lg:pr-5 lg:pl-5'>
             <article className='max-w-xl mb-6'>
               <div>
-                <h4 className='inline-block text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
+                <h4 className='inline-block font-semibold tracking-wider uppercase text-eco-green rounded-full'>
                   Brand new web project
                 </h4>
               </div>

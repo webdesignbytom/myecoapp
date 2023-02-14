@@ -12,7 +12,6 @@ const links = [
   { url: '/account', title: 'Account' },
 ];
 
-
 function Navbar() {
   const { toggleNavigation, setToggleNavigation } = useContext(ToggleContext);
 
