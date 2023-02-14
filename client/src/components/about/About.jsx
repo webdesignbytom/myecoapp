@@ -1,6 +1,6 @@
 import React from 'react';
-import Design from '../../assets/img/design.jpg'
-import Banner from '../../assets/img/myea-banner.png'
+import Design from '../../assets/img/design.jpg';
+import Banner from '../../assets/img/myea-banner.png';
 
 function About() {
   return (
@@ -32,16 +32,37 @@ function About() {
                 at the site you have already made us a little bit of money we
                 can put towards helpful causes.
               </p>
-              <p className='hidden md:block'>There are so many ways to make money these days outside of asking for donations. And alot of charities seem to be spending fortunes on advertising campaigns and management. So we seem to see money wasted or having little effect. We hope to change that. Our community has clearly defined goals! New ways to earn that money by taking advantage of the value of online traffic and advert space. Using the supporters world wide we will keep yo updated on all our progress and we disclose where every penny is spent. Currenly all our staff are volunteers so we waste nothing. </p>
+              <p className='hidden md:block'>
+                There are so many ways to make money these days outside of
+                asking for donations. And alot of charities seem to be spending
+                fortunes on advertising campaigns and management. So we seem to
+                see money wasted or having little effect. We hope to change
+                that. Our community has clearly defined goals! New ways to earn
+                that money by taking advantage of the value of online traffic
+                and advert space. Using the supporters world wide we will keep
+                yo updated on all our progress and we disclose where every penny
+                is spent. Currenly all our staff are volunteers so we waste
+                nothing.{' '}
+              </p>
             </article>
           </div>
           {/* Image component */}
           <section className='grid relative items-center py-2'>
-            <img className='rounded-md' src={Design} alt="design" />
-            <img className='absolute w-eighty' src={Banner} alt="Banner" />
+            <img className='rounded-md' src={Design} alt='design' />
+            <img className='absolute w-eighty' src={Banner} alt='Banner' />
           </section>
           <article className='md:hidden'>
-          <p >There are so many ways to make money these days outside of asking for donations. And alot of charities seem to be spending fortunes on advertising campaigns and management. So we seem to see money wasted or having little effect. We hope to change that. Our community has clearly defined goals! New ways to earn that money by taking advantage of the value of online traffic and advert space. Using the supporters world wide we will keep yo updated on all our progress and we disclose where every penny is spent. Currenly all our staff are volunteers so we waste nothing. </p>
+            <p>
+              There are so many ways to make money these days outside of asking
+              for donations. And alot of charities seem to be spending fortunes
+              on advertising campaigns and management. So we seem to see money
+              wasted or having little effect. We hope to change that. Our
+              community has clearly defined goals! New ways to earn that money
+              by taking advantage of the value of online traffic and advert
+              space. Using the supporters world wide we will keep yo updated on
+              all our progress and we disclose where every penny is spent.
+              Currenly all our staff are volunteers so we waste nothing.{' '}
+            </p>
           </article>
         </section>
       </article>
