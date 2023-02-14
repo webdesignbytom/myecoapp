@@ -4,23 +4,24 @@ import CTA from './CTA';
 function Header() {
   return (
     <>
-      <div
+      <section
         style={{ backgroundImage: '../../assets/img/bg1.png' }}
         className='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'
       >
         <div className='flex flex-col items-center justify-between w-full mb-10 lg:flex-row'>
           <div className='mb-16 lg:mb-0 lg:max-w-lg lg:pr-5 lg:pl-5'>
-            <div className='max-w-xl mb-6'>
+            <article className='max-w-xl mb-6'>
               <div>
-                <p className='inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
+                <p className='inline-block text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
                   Brand new web project
                 </p>
               </div>
+              <h1 className='text-eco-green font-extrabold text-6xl pb-6 md:py-4 text-center md:text-left'>myecoapp</h1>
               <h2 className='font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6'>
-                Everything you <br className='hidden md:block' />
-                can imagine{' '}
+                Help The Planet <br className='hidden md:block' />
+                by existing{' '}
                 <span className='inline-block text-deep-purple-accent-400'>
-                  is real
+                  and clicking
                 </span>
               </h2>
               <p className='text-gray-700 text-base md:text-lg'>
@@ -28,7 +29,7 @@ function Header() {
                 event. Use our apps to earn while you relax. We have done what
                 we can to provide entertainment for you. Check it out below.
               </p>
-            </div>
+            </article>
             <div className='flex items-center space-x-3'>
               <CTA />
             </div>
@@ -51,7 +52,7 @@ function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
