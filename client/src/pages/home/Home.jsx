@@ -16,7 +16,6 @@ function Home() {
         <div className='dark:bg-black'>
           <Navbar />
           <Header />
-          <About />
         </div>
       )}
     </>
