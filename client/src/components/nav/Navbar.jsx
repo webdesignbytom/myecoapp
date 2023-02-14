@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import { ToggleContext } from '../../context/ToggleContext';
 import Logo from '../../assets/img/myea-logo.svg';
 
 const links = [
@@ -11,7 +12,14 @@ const links = [
   { url: '/account', title: 'Account' },
 ];
 
+
 function Navbar() {
+  const { toggleNavigation, setToggleNavigation } = useContext(ToggleContext);
+
+  const openNavbar = () => {
+    setToggleNavigation(!toggleNavigation)
+  }
+
   return (
     <>
       <div className='flex flex-row justify-between max-w-full px-8 bg-eco-green sm:flex hover:text-slate-50 items-center lg:mx-8 lg:my-4'>
@@ -22,7 +30,9 @@ function Navbar() {
 
         {/* small screen menu */}
         <div className='flex flex-row sm:hidden justify-end'>
-          <MenuIcon />
+          <div onClick={openNavbar}>
+            <MenuIcon />
+          </div>
         </div>
         {/* Large screen menu */}
         <nav className='hidden flex-row w-full justify-end items-center sm:flex'>
