@@ -5,7 +5,7 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
 
 # Components Designs and pages
 
-- Home
+Home
   - Hero
   - Welcome/About
   - Goals
@@ -42,3 +42,5 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
 ## Design
 Colour pallet based on logo green
 <img src='./assets/img/colourpallet.png' alt='scheme'>
+
+## About Section ![about_page](https://user-images.githubusercontent.com/95193376/218829379-8958049e-4ed0-4b28-aa93-4e16f78a1867.png)
