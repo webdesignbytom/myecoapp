@@ -36,8 +36,8 @@ function About() {
             </article>
           </div>
           {/* Image component */}
-          <section className='grid relative items-center'>
-            <img src={Design} alt="design" />
+          <section className='grid relative items-center py-2'>
+            <img className='rounded-md' src={Design} alt="design" />
             <img className='absolute w-eighty' src={Banner} alt="Banner" />
           </section>
           <article className='md:hidden'>
