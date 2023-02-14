@@ -6,7 +6,7 @@ import Header from '../../components/header/Header';
 import Navbar from '../../components/nav/Navbar';
 
 function Home() {
-  const { toggleNavigation, setToggleNavigation } = useContext(ToggleContext);
+  const { toggleNavigation } = useContext(ToggleContext);
 
   return (
     <>
