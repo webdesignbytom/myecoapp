@@ -5,18 +5,20 @@ function Header() {
   return (
     <>
       <section
-        style={{ backgroundImage: '../../assets/img/bg1.png' }}
+        id='hero'
         className='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'
       >
         <div className='flex flex-col items-center justify-between w-full mb-10 lg:flex-row'>
           <div className='mb-16 lg:mb-0 lg:max-w-lg lg:pr-5 lg:pl-5'>
             <article className='max-w-xl mb-6'>
               <div>
-                <p className='inline-block text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
+                <h4 className='inline-block text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-eco-green rounded-full'>
                   Brand new web project
-                </p>
+                </h4>
               </div>
-              <h1 className='text-eco-green font-extrabold text-6xl pb-6 md:py-4 text-center md:text-left'>myecoapp</h1>
+              <h1 className='text-eco-green font-extrabold text-6xl pb-6 md:py-4 text-center md:text-left'>
+                myecoapp
+              </h1>
               <h2 className='font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6'>
                 Help The Planet <br className='hidden md:block' />
                 by existing{' '}

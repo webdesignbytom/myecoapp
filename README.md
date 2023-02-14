@@ -7,7 +7,7 @@ Current Deploy `https://gorgeous-dusk-add814.netlify.app/`
 
 - Home
   - Hero
-  - Welcome
+  - Welcome/About
   - Goals
     - 3 - 6
   - Supporters
